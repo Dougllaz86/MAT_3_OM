@@ -71,7 +71,7 @@ ul {
 
 .legenda {
   margin-bottom: 3em;
-  margin-top: 15px;
+  margin-top: -15px;
 }
 
 .hero.is-large .hero-body blockquote {
@@ -171,6 +171,17 @@ li * {
   font-weight: 400;
 }
 
+.credito-img {
+  position: absolute;
+  top: 1%;
+  right: 1%;
+  color: #111;
+  background-color: white;
+  padding: 1px 3px;
+  font-size: 0.6em;
+  opacity: 0.8;
+}
+
 /* ABERTURA */
 .abertura {
   position: relative;
@@ -243,8 +254,4 @@ textarea {
   ol {
     padding-left: 15px;
   }
-}
-
-.message button a {
-  text-decoration: none !important;
 }
