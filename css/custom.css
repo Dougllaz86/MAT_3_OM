@@ -255,3 +255,15 @@ textarea {
     padding-left: 15px;
   }
 }
+
+li strong {
+  font-weight: 700;
+}
+
+.has-text-primary {
+  color: #619744 !important;
+}
+
+a {
+  text-decoration: none !important;
+}
