@@ -8,28 +8,32 @@ body {
 
 .hero,
 section {
+  background-attachment: scroll, fixed;
   background-position: right top;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: scroll, fixed;
 }
 
 .hero .legenda {
+  bottom: 10px;
   position: absolute;
   right: 10px;
-  bottom: 10px;
 }
 
 .is-primary {
-  background-color: #BED7B0 !important;
+  background-color: #9DEBC3 !important;
 }
 
 .notification.is-warning {
-  background-color: #95B6DF;
+  background-color: #81BCB6;
+}
+
+.has-text-primary {
+  color: #00A651 !important;
 }
 
 .hero .notification.is-warning {
-  background-color: #619744 !important;
+  background-color: #00A651 !important;
   color: #fff;
 }
 
@@ -38,12 +42,12 @@ section {
 }
 
 .table tr.is-selected {
-  background-color: #619744 !important;
+  background-color: #00A651 !important;
   color: #fff;
 }
 
 .is-primary .columns div {
-  background: #BED7B0;
+  background: #9DEBC3;
   color: white;
 }
 
@@ -81,11 +85,24 @@ ul {
 .content figure img {
   margin-bottom: 15px;
   max-height: 85vh;
-  width: auto !important;
+  width: auto;
 }
 
 .content .legenda:last-child {
   margin-bottom: 0 !important;
+}
+
+.buttons.om .button {
+  height: 20px;
+  padding: 0;
+  width: 20px;
+}
+
+.buttons.om .button a {
+  color: white;
+  font-size: 0.7em;
+  font-weight: 800;
+  text-decoration: none !important;
 }
 
 /* TEXTO */
@@ -99,38 +116,37 @@ h5 {
 }
 
 h1 {
-  color: white;
   align-items: center;
+  color: white;
   margin-bottom: 2.5rem !important;
 }
 
 h1 span {
-  font-size: 0.75rem;
-  font-family: 'Work Sans', sans-serif;
-  color: #fff;
+  background-color: #00A651;
   border-radius: 3px;
   box-shadow: 4px 4px 1px #4d2014;
-  margin-bottom: 10px;
-  background-color: #619744;
-  padding: 7px;
+  color: #fff;
   display: inline-block;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 0.75rem;
+  margin-bottom: 10px;
+  padding: 7px;
 }
 
 .content .legenda h6:first-child {
-  /* font-weight: 600 !important; */
   background-color: transparent;
-  text-align: left;
-  color: #619744;
+  color: #00A651;
   margin-bottom: 1rem;
-  padding: 0 10px;
+  padding: 0;
+  word-break: break-all;
 }
 
 .content .legenda h6 {
-  font-weight: 400 !important;
-  color: #fff;
-  background-color: #619744;
-  padding: 10px;
+  background-color: #00A651;
   border-radius: 3px;
+  color: #fff;
+  font-weight: 400 !important;
+  padding: 10px;
 }
 
 .hero .legenda h6,
@@ -139,23 +155,23 @@ blockquote strong {
 }
 
 .notification.is-primary h3 {
-  width: fit-content;
-  background: #619744;
+  background: #00A651;
+  color: white;
+  margin-bottom: 30px;
+  margin-top: -35px;
   padding: 10px;
   transform: rotate(-5deg);
-  margin-top: -35px;
-  margin-bottom: 30px;
-  color: white;
+  width: fit-content;
 }
 
 .mapa h3 {
-  width: fit-content;
-  background: #619744;
-  padding: 10px;
+  background: #00A651;
   color: white;
   margin-bottom: 0;
   margin-top: 0 !important;
+  padding: 10px;
   transform: rotate(0) !important;
+  width: fit-content;
 }
 
 h6 span {
@@ -167,32 +183,45 @@ li {
   margin-bottom: 5px;
 }
 
-li * {
+li>* {
   font-weight: 400;
 }
 
+.lista-parenteses ol {
+  counter-reset: parenteses;
+  list-style: none;
+}
+
+.lista-parenteses ol li {
+  counter-increment: parenteses;
+}
+
+.lista-parenteses ol li::before {
+  content: counter(parenteses, lower-alpha) ") ";
+}
+
 .credito-img {
-  position: absolute;
-  top: 1%;
-  right: 1%;
-  color: #111;
   background-color: white;
-  padding: 1px 3px;
+  color: #111;
   font-size: 0.6em;
   opacity: 0.8;
+  padding: 1px 3px;
+  position: absolute;
+  right: 1%;
+  top: 1%;
 }
 
 /* ABERTURA */
 .abertura {
-  position: relative;
-  padding-bottom: 0;
   margin-top: -25vh;
+  padding-bottom: 0;
+  position: relative;
 }
 
 .abertura .column {
   background-color: white;
-  padding: 40px 80px 0;
   border-radius: 15px 15px 0 0;
+  padding: 40px 80px 0;
 }
 
 .abertura h2 {
@@ -210,14 +239,14 @@ li * {
 }
 
 .abertura .title {
-  color: #619744;
+  color: #00A651;
 }
 
 /* EXERCÍCIOS */
 textarea {
-  margin: 15px 0 25px;
   background-color: white !important;
   font-family: 'Work Sans', sans-serif;
+  margin: 15px 0 25px;
 }
 
 .textarea:active,
@@ -256,12 +285,26 @@ textarea {
   }
 }
 
-li strong {
-  font-weight: 700;
+.buttons.om {
+  display: inline-block;
 }
 
-.has-text-primary {
-  color: #619744 !important;
+.buttons.om .button {
+  background-color: #00A651;
+  height: 20px;
+  padding: 0;
+  width: 20px;
+}
+
+.buttons.om .button a {
+  color: white;
+  font-size: 0.7em;
+  font-weight: 800;
+  text-decoration: none !important;
+}
+
+.columns:last-child {
+  margin-bottom: 0;
 }
 
 a {
