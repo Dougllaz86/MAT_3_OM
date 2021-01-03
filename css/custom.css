@@ -21,19 +21,19 @@ section {
 }
 
 .is-primary {
-  background-color: #9DEBC3 !important;
+  background-color: #B69AD0 !important;
 }
 
 .notification.is-warning {
-  background-color: #81BCB6;
+  background-color: #F8ABAD;
 }
 
 .has-text-primary {
-  color: #00A651 !important;
+  color: #74489D !important;
 }
 
 .hero .notification.is-warning {
-  background-color: #00A651 !important;
+  background-color: #74489D !important;
   color: #fff;
 }
 
@@ -42,12 +42,12 @@ section {
 }
 
 .table tr.is-selected {
-  background-color: #00A651 !important;
+  background-color: #74489D !important;
   color: #fff;
 }
 
 .is-primary .columns div {
-  background: #9DEBC3;
+  background: #B69AD0;
   color: white;
 }
 
@@ -122,7 +122,7 @@ h1 {
 }
 
 h1 span {
-  background-color: #00A651;
+  background-color: #74489D;
   border-radius: 3px;
   box-shadow: 4px 4px 1px #4d2014;
   color: #fff;
@@ -135,14 +135,14 @@ h1 span {
 
 .content .legenda h6:first-child {
   background-color: transparent;
-  color: #00A651;
+  color: #74489D;
   margin-bottom: 1rem;
   padding: 0;
   word-break: break-all;
 }
 
 .content .legenda h6 {
-  background-color: #00A651;
+  background-color: #74489D;
   border-radius: 3px;
   color: #fff;
   font-weight: 400 !important;
@@ -155,7 +155,7 @@ blockquote strong {
 }
 
 .notification.is-primary h3 {
-  background: #00A651;
+  background: #74489D;
   color: white;
   margin-bottom: 30px;
   margin-top: -35px;
@@ -165,7 +165,7 @@ blockquote strong {
 }
 
 .mapa h3 {
-  background: #00A651;
+  background: #74489D;
   color: white;
   margin-bottom: 0;
   margin-top: 0 !important;
@@ -239,7 +239,7 @@ li>* {
 }
 
 .abertura .title {
-  color: #00A651;
+  color: #74489D;
 }
 
 /* EXERCÍCIOS */
@@ -290,7 +290,7 @@ textarea {
 }
 
 .buttons.om .button {
-  background-color: #00A651;
+  background-color: #74489D;
   height: 20px;
   padding: 0;
   width: 20px;
