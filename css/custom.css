@@ -21,19 +21,19 @@ section {
 }
 
 .is-primary {
-  background-color: #F1BEC0 !important;
+  background-color: #A4D5ED !important;
 }
 
 .notification.is-warning {
-  background-color: #A6CE39;
+  background-color: #E8D881;
 }
 
 .has-text-primary {
-  color: #B8292F !important;
+  color: #0074AE !important;
 }
 
 .hero .notification.is-warning {
-  background-color: #B8292F !important;
+  background-color: #0074AE !important;
   color: #fff;
 }
 
@@ -42,12 +42,12 @@ section {
 }
 
 .table tr.is-selected {
-  background-color: #B8292F !important;
+  background-color: #0074AE !important;
   color: #fff;
 }
 
 .is-primary .columns div {
-  background: #F1BEC0;
+  background: #A4D5ED;
   color: white;
 }
 
@@ -122,9 +122,9 @@ h1 {
 }
 
 h1 span {
-  background-color: #B8292F;
+  background-color: #0074AE;
   border-radius: 3px;
-  box-shadow: 4px 4px 1px #4d2014;
+  box-shadow: 4px 4px 1px #333333;
   color: #fff;
   display: inline-block;
   font-family: 'Work Sans', sans-serif;
@@ -135,14 +135,14 @@ h1 span {
 
 .content .legenda h6:first-child {
   background-color: transparent;
-  color: #B8292F;
+  color: #0074AE;
   margin-bottom: 1rem;
   padding: 0;
   word-break: break-all;
 }
 
 .content .legenda h6 {
-  background-color: #B8292F;
+  background-color: #0074AE;
   border-radius: 3px;
   color: #fff;
   font-weight: 400 !important;
@@ -155,7 +155,7 @@ blockquote strong {
 }
 
 .notification.is-primary h3 {
-  background: #B8292F;
+  background: #0074AE;
   color: white;
   margin-bottom: 30px;
   margin-top: -35px;
@@ -165,7 +165,7 @@ blockquote strong {
 }
 
 .mapa h3 {
-  background: #B8292F;
+  background: #0074AE;
   color: white;
   margin-bottom: 0;
   margin-top: 0 !important;
@@ -239,7 +239,7 @@ li>* {
 }
 
 .abertura .title {
-  color: #B8292F;
+  color: #0074AE;
 }
 
 /* EXERCÍCIOS */
@@ -290,7 +290,7 @@ textarea {
 }
 
 .buttons.om .button {
-  background-color: #B8292F;
+  background-color: #0074AE;
   height: 20px;
   padding: 0;
   width: 20px;
