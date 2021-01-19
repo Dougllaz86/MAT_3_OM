@@ -310,3 +310,10 @@ textarea {
 a {
   text-decoration: none !important;
 }
+
+.table td.is-selected, .table th.is-selected {
+  background-color: #0074AE;
+  color: #fff;
+  display: table-cell;
+  vertical-align: middle;
+}
